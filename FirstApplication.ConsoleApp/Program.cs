@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace FirstApplication.ConsoleApp
 
 {
@@ -16,7 +17,6 @@ namespace FirstApplication.ConsoleApp
             Console.WriteLine("Здравствуйте, {0}", name);
             Console.WriteLine("Мне сообщили что вам {0} лет", Age);
             Console.WriteLine("{1} - это очень полезное занятие, так держать {0}",name, Hobby);
-
         }
     }
 }
