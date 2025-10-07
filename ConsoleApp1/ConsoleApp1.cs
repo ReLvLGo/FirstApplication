@@ -1,5 +1,5 @@
 ﻿using System;
-class ConsoleApp
+class ConsoleApp1
 {
     public static void Main(string[] args)
     {
