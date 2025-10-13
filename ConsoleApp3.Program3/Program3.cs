@@ -2,27 +2,18 @@
 
 class MainClass
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Console.WriteLine("введите имя");
-        string name = Console.ReadLine();
-        Console.WriteLine("Введите возраст");
-        var age =(Console.ReadLine());
-        Console.WriteLine("ваше имя {0} \nваш возраст {1}", name, age);
+        Console.WriteLine("your his name");
+        var name = Console.ReadLine();
+        Console.WriteLine("his age");
+        var age = checked((byte)int.Parse(Console.ReadLine()));
+        Console.WriteLine("Your name is {0} and age is {1} ", name, age);
 
-        Console.WriteLine("Какой ваш любимый день недели?");
-        
-        week day = (week)int.Parse(Console.ReadLine());
-      
+        Console.Write("What is your favorite day of week? ");
 
-        Console.WriteLine("Ваш любимый день недели {0}", day);
-        Console.ReadKey();
+        var day = (DayOfWeek)int.Parse(Console.ReadLine());
+        Console.WriteLine("Your favorite day is {0}", day);
 
     }
-}
-enum week : int
-{
-     MONDEY = 1,
-        thusday = 2
-
 }
