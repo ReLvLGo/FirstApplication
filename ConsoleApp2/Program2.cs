@@ -3,10 +3,10 @@ class Program2
 {
     public static void Main(string[] args)
     {
-        Semaphore МойЛюбимыйДень;
-        МойЛюбимыйДень = Semaphore.Red;
+        
         Console.WriteLine("\tМойЛюбимыйДень");
-        Console.ReadKey();
+        Semaphore color = (Semaphore) int.Parse(Console.ReadLine());
+        Console.WriteLine(color);
       
     }
 }
